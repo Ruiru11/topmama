@@ -13,6 +13,7 @@ import LocationDeniedView from './src/Containers/Location/locationDenied';
 
 const App = () => {
   useEffect(() => {
+    // this section would also handle hiding SplashScreen SplashScreen.hide()
     accessLocationPermissions();
   }, []);
 
