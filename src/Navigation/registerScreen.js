@@ -7,6 +7,10 @@ import Home from '../Containers/Home';
 import store from '../Redux/Store';
 import ShowForecast from '../Containers/Detail/index';
 
+/* 
+  Here we register screens 
+*/
+
 export const registerScreens = () => {
   Navigation.registerComponent(
     'App',
